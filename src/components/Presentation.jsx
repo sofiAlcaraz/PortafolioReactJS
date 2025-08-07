@@ -14,7 +14,7 @@ const Presentation = () => {
     >
       <Box
         component="img"
-        src={"src/assets/yo.jpg"}
+        src={"/yo.jpg"}
         alt="Logo"
         sx={{
           width: "100px",
