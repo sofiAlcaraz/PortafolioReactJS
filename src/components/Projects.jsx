@@ -154,7 +154,7 @@ const Projects = () => {
         }}
       >
         {cards.map((card, index) => (
-          <Card>
+          <Card key={index}>
             <CardActionArea
               onClick={() => window.open(card.url, "_blank")}
               onMouseEnter={() => setSelectedCard(index)}

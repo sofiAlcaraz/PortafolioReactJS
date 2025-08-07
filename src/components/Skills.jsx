@@ -72,8 +72,8 @@ const Skills = () => {
           flexWrap: "wrap",
         }}
       >
-        {skillsList.map((skilItem) => (
-          <Box sx={{ fontSize: 30 }} id={skilItem.id}>
+        {skillsList.map((skilItem, i) => (
+          <Box sx={{ fontSize: 30 }} key={i}>
             {skilItem.icon}
           </Box>
         ))}
