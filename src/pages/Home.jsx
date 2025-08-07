@@ -1,5 +1,5 @@
-import { Box, Button, IconButton, Typography } from "@mui/material";
-import NavBar from "../components/navBar";
+import { Box, IconButton } from "@mui/material";
+import NavBar from "../components/NavBar";
 import Presentation from "../components/Presentation";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
