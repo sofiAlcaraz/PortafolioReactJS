@@ -1,12 +1,9 @@
-import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import MenuItem from "@mui/material/MenuItem";
 
 const pages = ["Presentacion", "Proyectos", "Habilidades", "Contacto"];
 function NavBar() {
@@ -19,7 +16,7 @@ function NavBar() {
   };
   return (
     <AppBar position="static" color="secondary" id="navbar" elevation={0}>
-      <Container maxWidth="xl">
+      <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -49,7 +46,8 @@ function NavBar() {
                 key={page}
                 onClick={(e) => onClick(e, page)}
                 size="small"
-                sx={{ color: "black", display: "block" }}
+                color="secondary"
+                sx={{ display: "block" }}
               >
                 {page}
               </Button>
