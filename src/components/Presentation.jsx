@@ -17,8 +17,8 @@ const Presentation = () => {
         src={"/yo.jpg"}
         alt="Logo"
         sx={{
-          width: "100px",
-          height: "100px",
+          width: "250px",
+          height: "250px",
           borderRadius: "50%",
         }}
       />
@@ -31,13 +31,13 @@ const Presentation = () => {
           justifyContent: "flex-start",
         }}
       >
-        <Typography variant="h4" align="justify" sx={{ color: "#073954" }}>
+        <Typography variant="h3" align="justify" sx={{ color: "#073954" }}>
           Hola, soy sofi
         </Typography>
-        <Typography variant="subtitle1" align="justify" sx={{ color: "#333" }}>
+        <Typography variant="h4" align="justify" sx={{ color: "#333" }}>
           Desarrolladora Full Stack
         </Typography>
-        <Typography variant="body2" align="justify" sx={{ color: "#333" }}>
+        <Typography variant="h6" align="justify" sx={{ color: "#333" }}>
           Soy estudiante de la carrera de Licenciatura en Sistemas. Me apasiona
           el desarrollo web y disfruto creando aplicaciones que mejoren la
           experiencia del usuario. Aqui te cuento un poco sobre mi trayectoria y
