@@ -45,7 +45,7 @@ const Home = ({ setMode, mode }) => {
         <Presentation />
         <Projects />
         <Skills mode={mode} />
-        <Contact />
+        <Contact mode={mode} />
         <IconButton
           aria-label="delete"
           color="primary"
