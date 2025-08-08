@@ -29,7 +29,8 @@ const Contact = ({ mode }) => {
           <Button
             variant="text"
             size="small"
-            href="mailto:sofiialcaraz16@gmail.com"
+            target="_blank"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=sofiialcaraz16@gmail.com"
             startIcon={<EmailIcon />}
           >
             sofiialcaraz16@gmail.com
