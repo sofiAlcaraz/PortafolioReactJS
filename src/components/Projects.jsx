@@ -140,7 +140,7 @@ const Projects = () => {
       <Typography
         variant="h5"
         align="justify"
-        sx={{ color: "#073954", mb: 2, alignSelf: "flex-start" }}
+        sx={{ mb: 2, alignSelf: "flex-start" }}
       >
         Proyectos
       </Typography>
@@ -173,9 +173,7 @@ const Projects = () => {
                 <Typography variant="h6" component="div">
                   {card.title}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {card.description}
-                </Typography>
+                <Typography variant="body2">{card.description}</Typography>
               </CardContent>
             </CardActionArea>
           </Card>

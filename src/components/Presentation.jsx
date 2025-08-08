@@ -9,6 +9,7 @@ const Presentation = () => {
         flexDirection: "row",
         alignItems: "center",
         gap: 3,
+        flexWrap: "wrap",
       }}
       id="presentacion"
     >
@@ -31,13 +32,13 @@ const Presentation = () => {
           justifyContent: "flex-start",
         }}
       >
-        <Typography variant="h3" align="justify" sx={{ color: "#073954" }}>
+        <Typography variant="h3" align="justify">
           Hola, soy sofi
         </Typography>
-        <Typography variant="h4" align="justify" sx={{ color: "#333" }}>
+        <Typography variant="h4" align="justify">
           Desarrolladora Full Stack
         </Typography>
-        <Typography variant="h6" align="justify" sx={{ color: "#333" }}>
+        <Typography variant="h6" align="justify">
           Soy estudiante de la carrera de Licenciatura en Sistemas. Me apasiona
           el desarrollo web y disfruto creando aplicaciones que mejoren la
           experiencia del usuario. Aqui te cuento un poco sobre mi trayectoria y

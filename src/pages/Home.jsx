@@ -6,7 +6,7 @@ import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
-const Home = () => {
+const Home = ({ setMode, mode }) => {
   const onClickUp = (e) => {
     e.preventDefault();
     window.scrollTo({
@@ -31,7 +31,7 @@ const Home = () => {
       <Box
         sx={{
           position: "relative",
-          backgroundColor: "#f0f0f0",
+          backgroundColor: mode ? "#000000" : "#f0f0f0",
           borderRadius: 4,
           boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", // efecto flotante
           maxWidth: "90%",
@@ -41,10 +41,10 @@ const Home = () => {
           overflowY: "auto",
         }}
       >
-        <NavBar />
+        <NavBar setMode={setMode} />
         <Presentation />
         <Projects />
-        <Skills />
+        <Skills mode={mode} />
         <Contact />
         <IconButton
           aria-label="delete"

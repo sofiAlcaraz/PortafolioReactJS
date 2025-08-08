@@ -1,11 +1,11 @@
-import { Box, Button, Link, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 
 const Contact = () => {
   return (
     <Box sx={{ padding: 2 }} id="contacto">
-      <Typography variant="h5" align="justify" sx={{ color: "#073954", mb: 2 }}>
+      <Typography variant="h5" align="justify" sx={{ mb: 2 }}>
         Contacto
       </Typography>
       <Box

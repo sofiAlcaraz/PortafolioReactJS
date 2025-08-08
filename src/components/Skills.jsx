@@ -42,7 +42,7 @@ const skillsList = [
   { id: 1, icon: <TbBrandPowershell /> },
 ];
 
-const Skills = () => {
+const Skills = ({ mode }) => {
   return (
     <Box
       sx={{
@@ -57,14 +57,14 @@ const Skills = () => {
       <Typography
         variant="h5"
         align="justify"
-        sx={{ color: "#073954", marginBottom: 2, alignSelf: "flex-start" }}
+        sx={{ mb: 2, alignSelf: "flex-start" }}
       >
         Habilidades
       </Typography>
       <Box
         sx={{
           display: "flex",
-          color: "#073954",
+          color: mode ? "#2890c9ff" : "#073954",
           gap: 2,
           maxWidth: "800px",
           justifyContent: "center",
