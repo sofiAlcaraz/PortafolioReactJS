@@ -117,10 +117,16 @@ const cards = [
     url: "https://gitlab.com/jossevillacorta/alcaraz-pagano-villacorta-tp-p1",
   },
   {
-    id: 17,
+    id: 18,
     title: "TP Redes con Packet Tracer",
     description: "Diseñar un sistema de red logico para el enunciado dado",
     url: "https://gitlab.com/sofiialcaraz16/tp-redes/-/blob/main/tp_redes.pdf",
+  },
+  {
+    id: 19,
+    title: "Fumigaciones DA",
+    description: "Pagina web de una empresa de fumigaciones",
+    url: "https://github.com/sofiAlcaraz/Fumigaciones-DA",
   },
 ];
 
