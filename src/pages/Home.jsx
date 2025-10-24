@@ -1,4 +1,4 @@
-import { Box, IconButton } from "@mui/material";
+import { Box, IconButton, Typography } from "@mui/material";
 import NavBar from "../components/NavBar";
 import Presentation from "../components/Presentation";
 import Projects from "../components/Projects";
@@ -26,6 +26,7 @@ const Home = ({ setMode, mode }) => {
         justifyContent: "center",
         alignItems: "center",
         padding: "2rem 0rem 2rem 0rem",
+        flexDirection: "column",
       }}
     >
       <Box
@@ -53,6 +54,11 @@ const Home = ({ setMode, mode }) => {
         >
           <KeyboardArrowUpIcon />
         </IconButton>
+      </Box>
+      <Box type="footer">
+        <Typography align="center" color="#000000">
+          &copy; 2025 Sofia Alcaraz - Todos los derechos reservados
+        </Typography>
       </Box>
     </Box>
   );
