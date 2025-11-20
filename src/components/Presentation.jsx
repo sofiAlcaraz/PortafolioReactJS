@@ -20,6 +20,7 @@ const Presentation = () => {
         sx={{
           width: "250px",
           height: "250px",
+          objectFit: "cover",
           borderRadius: "50%",
         }}
       />
