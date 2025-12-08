@@ -128,6 +128,13 @@ const cards = [
     description: "Pagina web de una empresa de fumigaciones",
     url: "https://github.com/sofiAlcaraz/Fumigaciones-DA",
   },
+  {
+    id: 20,
+    title: "Proyecto Api REST(Nodejs y Express)",
+    description:
+      "API REST estructurada por capas, conectada a Firebase Firestore, con autenticación mediante JWT, y con manejo completo de productos y usuarios",
+    url: "https://github.com/sofiAlcaraz/node-entrega-talento-tech",
+  },
 ];
 
 const Projects = () => {
@@ -142,6 +149,7 @@ const Projects = () => {
         alignItems: "center",
       }}
       id="proyectos"
+      type="article"
     >
       <Typography
         variant="h5"
@@ -158,6 +166,7 @@ const Projects = () => {
             "repeat(auto-fill, minmax(min(200px, 100%), 1fr))",
           gap: 2,
         }}
+        type="section"
       >
         {cards.map((card, index) => (
           <Card key={index}>
