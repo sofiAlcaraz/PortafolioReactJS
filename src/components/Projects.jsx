@@ -131,7 +131,7 @@ const cards = [
   },
   {
     id: 20,
-    title: "Proyecto Api REST(Nodejs y Express)",
+    title: "Proyecto Api REST(Node.js, Express)",
     description:
       "API REST estructurada por capas, conectada a Firebase Firestore, con autenticación mediante JWT, y con manejo completo de productos y usuarios",
     url: "https://github.com/sofiAlcaraz/node-entrega-talento-tech",

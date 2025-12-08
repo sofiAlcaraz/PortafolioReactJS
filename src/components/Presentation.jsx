@@ -40,10 +40,13 @@ const Presentation = () => {
           Desarrolladora Full Stack
         </Typography>
         <Typography variant="h6" align="justify">
-          Trabajo con tecnologías como Python, Java, Node.js, React y PHP
-          (Symfony). Tengo experiencia en mantenimiento, mejoras y desarrollo de
-          funcionalidades, y en el manejo de bases de datos SQL. Continúo
-          formándome para fortalecer mis bases técnicas.
+          Trabajo con tecnologías como Python, Java, Node.js, React y PHP. Tengo
+          experiencia en{" "}
+          <strong>
+            mantenimiento, mejoras y desarrollo de funcionalidades
+          </strong>
+          , así como en el <strong>manejo de bases de datos SQL</strong>.
+          Continúo formándome para fortalecer mis bases técnicas.
         </Typography>
         <Button
           variant="contained"
