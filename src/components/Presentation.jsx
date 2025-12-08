@@ -40,10 +40,10 @@ const Presentation = () => {
           Desarrolladora Full Stack
         </Typography>
         <Typography variant="h6" align="justify">
-          Soy estudiante de la carrera de Licenciatura en Sistemas. Me apasiona
-          el desarrollo web y disfruto creando aplicaciones que mejoren la
-          experiencia del usuario. Aqui te cuento un poco sobre mi trayectoria y
-          habilidades.
+          Trabajo con tecnologías como Python, Java, Node.js, React y PHP
+          (Symfony). Tengo experiencia en mantenimiento, mejoras y desarrollo de
+          funcionalidades, y en el manejo de bases de datos SQL. Continúo
+          formándome para fortalecer mis bases técnicas.
         </Typography>
         <Button
           variant="contained"
