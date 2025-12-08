@@ -3,6 +3,7 @@ import {
   Card,
   CardActionArea,
   CardContent,
+  Chip,
   Typography,
 } from "@mui/material";
 import React from "react";
@@ -184,6 +185,21 @@ const Projects = () => {
                 },
               }}
             >
+              {card.id == cards.length + 1 ? (
+                <Chip
+                  label="Nuevo!"
+                  color="primary"
+                  size="medium"
+                  sx={{
+                    position: "absolute",
+                    top: 0,
+                    right: 0,
+                    fontWeight: "bold",
+                  }}
+                />
+              ) : (
+                ""
+              )}
               <CardContent sx={{ height: "100%" }}>
                 <Typography variant="h6" component="div">
                   {card.title}
