@@ -53,6 +53,7 @@ const Skills = ({ mode }) => {
         alignItems: "center",
       }}
       id="habilidades"
+      type="article"
     >
       <Typography
         variant="h5"
@@ -71,6 +72,7 @@ const Skills = ({ mode }) => {
           alignItems: "center",
           flexWrap: "wrap",
         }}
+        type="section"
       >
         {skillsList.map((skilItem, i) => (
           <Box sx={{ fontSize: 30 }} key={i}>
