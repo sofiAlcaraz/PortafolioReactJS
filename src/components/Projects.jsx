@@ -136,6 +136,13 @@ const cards = [
       "API REST estructurada por capas, conectada a Firebase Firestore, con autenticación mediante JWT, y con manejo completo de productos y usuarios",
     url: "https://github.com/sofiAlcaraz/node-entrega-talento-tech",
   },
+  {
+    id: 21,
+    title: "Proyecto CRUD de tareas (React.js/ Node.js y Express)",
+    description:
+      "En el backend se incorporaron las siguientes herramientas: Nodemon, ESLint, Dotenv, Husky y CORS. En el frontend se incorporaron: MUI (Material UI), ESLint y React Router DOM.",
+    url: "https://github.com/sofiAlcaraz/RepoAcademiaForIt",
+  },
 ];
 
 const Projects = () => {
